@@ -27,33 +27,109 @@
 </head>
 
 <body>
-    <header>
-    <!--Inicia Parte de Lynn-->
-    
+    <header class="bg-color_primary">
+        <nav class="container mx-auto flex justify-between items-center py-4 px-6 sm:px-20" aria-label="Main Navigation">
+            <a href="/" class="flex flex-row items-center gap-2" aria-label="Care Nest Home">
+                <div class="h-12 w-12 sm:h-16 sm:w-16 rounded-full flex justify-center items-center" aria-hidden="true">
+                    <img src="/Img/carenest.png" alt="Care Nest Logo" class="h-full w-auto" />
+                </div>
+            </a>
+            <button id="menu-toggle" class="block sm:hidden p-3">
+                <span class="sr-only">Open menu</span>
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+            <ul id="menu" class="hidden sm:flex flex-row gap-8 text-lg sm:text-xl font-bold" role="menubar">
+                <li role="none">
+                    <a href="#home" role="menuitem">Home</a>
+                </li>
+                <li role="none">
+                    <a href="#why_choose_us" role="menuitem">Why Choose Us?</a>
+                </li>
+                <li role="none">
+                    <a href="#about_us" role="menuitem">About Us</a>
+                </li>
+                <li role="none">
+                    <a href="#plans" role="menuitem">Plans</a>
+                </li>
+            </ul>
+            <div class="flex flex-row gap-2">
+                <button class="bg-customDarkBlue text-white p-3 rounded-3xl font-light text-lg sm:text-xl" aria-label="Sign in to Care Nest">Sign In</button>
+                <button class="rounded-3xl border-2 border-customSkyBlue text-clifford p-3 text-lg sm:text-xl" aria-label="Sign up for Care Nest">Sign Up</button>
+            </div>
+        </nav>
+       
+        <div id="mobile-menu" class="fixed top-0 right-0 w-64 bg-black text-white z-50 hidden h-full">
+            <div class="flex flex-col h-full p-4">
+                <button id="close-menu" class="self-end p-3">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+                <ul class="flex flex-col gap-4 text-lg font-bold mt-10">
+                    <li>
+                        <a href="#home" role="menuitem" class="text-white">Home</a>
+                    </li>
+                    <li>
+                        <a href="#why_choose_us" role="menuitem" class="text-white">Why Choose Us?</a>
+                    </li>
+                    <li>
+                        <a href="#about_us" role="menuitem" class="text-white">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#plans" role="menuitem" class="text-white">Plans</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
-    <!--Termina Parte de Lynn-->
-    
-    <!--Inicia Parte de Alejandro-->
+        <div class="bg-color_primary">
+            <section id="home" class="flex flex-col sm:grid grid-cols-12 gap-8 px-4 py-16 container mx-auto" aria-labelledby="hero-heading">
+                <div class="col-span-12 sm:col-span-6 flex flex-col justify-center gap-8 text-center sm:text-left">
+                    <p class="text-lg lg:text-xl font-black">
+                        Welcome to Care Nest
+                    </p>
+                    <h2 id="hero-heading" class="text-3xl lg:text-6xl font-bold">
+                        Caring Hands, Peace of Mind
+                    </h2>
+                    <p class="text-base lg:text-xl">
+                        Connect with trusted caregivers and ensure your child’s safety and happiness, wherever you are.
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center sm:justify-start gap-4">
+                        <a href="#subscriptions" class="bg-customDarkBlue text-white p-3 rounded-3xl font-light text-lg lg:text-xl" aria-label="Get started with Care Nest">Get started</a>
+                        <a href="#contact" class="rounded-3xl border-2 border-customSkyBlue text-customSkyBlue p-3 text-lg lg:text-xl" aria-label="Contact Care Nest">Contact now</a>
+                    </div>
+                </div>
+                <div class="col-span-12 sm:col-span-6 flex justify-center items-center">
+                    <div class="relative w-full h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center items-center">
+                        <img src="/Img/home.png" alt="Screenshot of Care Nest software" class="absolute inset-0 object-cover w-full h-full p-4" />
+                    </div>
+                </div>
+            </section>
+        </div>
 
-    <!--termina Parte de Alejandro-->
+        <!--Inicia Parte de Alejandro-->
 
-    <!--Inicia Parte de Arnold-->
+        <!--termina Parte de Alejandro-->
 
-    <!--termina Parte de Arnold-->
+        <!--Inicia Parte de Arnold-->
 
-    <!--Inicia Parte de Anthony-->
+        <!--termina Parte de Arnold-->
 
-    <!--termina Parte de Anthony-->
+        <!--Inicia Parte de Anthony-->
 
-    <!--Inicia Parte de Renzo -->
+        <!--termina Parte de Anthony-->
 
-    <!--termina Parte de Renzo -->
+        <!--Inicia Parte de Renzo -->
 
-    <!--Inicia Parte de Omar -->
+        <!--termina Parte de Renzo -->
 
-    <!--termina Parte de Omar -->
-    <script src="/index.js" defer></script>
+        <!--Inicia Parte de Omar -->
 
+        <!--termina Parte de Omar -->
+        <script src="/index.js" defer></script>
+    </main>
 </body>
 </html>
