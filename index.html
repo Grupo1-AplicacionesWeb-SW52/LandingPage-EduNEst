@@ -123,7 +123,43 @@
         <!--termina Parte de Anthony-->
 
         <!--Inicia Parte de Renzo -->
-
+        <section id="contact" class="container mx-auto flex flex-col items-center gap-10 pb-16" aria-labelledby="contact-heading">
+            <h2 id="contact-heading" class="text-3xl sm:text-6xl font-bold text-center">Contact</h2>        
+            <div class="bg-customVerySkyBlue min-w-[350px] md:min-w-[500px] rounded-lg p-8 shadow-lg">
+                <form class="flex flex-col gap-6" aria-labelledby="contact-form-heading">
+                    <div class="flex flex-col items-center gap-4 mb-6">
+                        <div class="h-24 w-24 rounded-full bg-white p-3 flex justify-center items-center shadow-md">
+                            <img src="/Img/carenest.png" alt="Logo" class="h-16 w-16" />
+                        </div>
+                        <h3 id="contact-form-heading" class="text-xl sm:text-2xl font-bold text-black text-center">
+                            Get in Touch with Safe Child
+                        </h3>
+                    </div>
+        
+                    <div class="flex flex-col gap-4">
+                        <label class="text-lg font-medium" htmlFor="name">Full Name</label>
+                        <input class="border-none p-3 rounded-xl max-w-lg shadow-sm" type="text" id="name" name="name"
+                            aria-label="Enter your full name" placeholder="John Doe" required />
+                    </div>
+        
+                    <div class="flex flex-col gap-4">
+                        <label class="text-lg font-medium" htmlFor="phone">Phone Number</label>
+                        <input class="border-none p-3 rounded-xl max-w-lg shadow-sm" type="tel" id="phone" name="phone"
+                            aria-label="Enter your phone number" placeholder="+1234567890" required />
+                    </div>
+        
+                    <div class="flex flex-col gap-4">
+                        <label class="text-lg font-medium" htmlFor="message">Your Message</label>
+                        <textarea class="border-none p-3 rounded-xl max-w-lg shadow-sm" id="message" name="message"
+                            aria-label="Enter your message" placeholder="How can we assist you?" required></textarea>
+                    </div>
+        
+                    <button type="submit" class="bg-orange-400 text-white p-3 rounded-3xl font-semibold text-lg hover:bg-orange-500 transition-colors">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
         <!--termina Parte de Renzo -->
 
         <!--Inicia Parte de Omar -->
